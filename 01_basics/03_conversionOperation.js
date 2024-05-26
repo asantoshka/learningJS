@@ -26,5 +26,27 @@ Type conversion
 Number
 Boolean
 String
-
 */
+
+let value = 3
+let negValue = -value
+
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+// Pre and post Increment operation 
+// ================================
+// let counter = 5
+// counter++
+// console.log(counter)
+// console.log(counter++)
+// console.log(counter)
+// console.log(++counter)
+// console.log(counter)

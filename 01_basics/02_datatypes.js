@@ -16,6 +16,15 @@ let name = "Santosh"
 let age = 26
 let isLoogedIn = false
 
+
+const id = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log(id === anotherId);
+
+
+let bigNumber = 95541654654654541543454n
+
 /*
 Primitiev datetypes
 ======================
@@ -30,3 +39,20 @@ symbol => unique
 
 console.log(typeof null) // It is an object
 console.log(typeof undefined) // It is undefined
+
+
+const heros = ["Spiderman", "Ironman", "Thor"] // Array
+
+let myObj = { 
+    name: "Santosh",
+    age: 18
+} // Object
+
+const myFunction = function(){
+    console.log("Hello")
+} // function object
+
+console.log(typeof(heros));
+console.log(typeof(myObj));
+console.log(typeof(myFunction));
+
